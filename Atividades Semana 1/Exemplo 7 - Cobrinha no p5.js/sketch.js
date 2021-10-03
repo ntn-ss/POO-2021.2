@@ -1,21 +1,14 @@
-const NL=6;
-const NC=6;
-const LADO=50;
-let snake_x=2;
-let snake_y=0;
-let snake_vx=0;
-let snake_vy=0;
-let snake_color;
+const NL=6, NC=6, LADO=50;
+
+let snake_x=2, snake_y=0, snake_vx=0, snake_vy=0, snake_color;
+
 let cell_color;
+
 let timer=0;
 
-let food_x=0;
-let food_y=0;
-let food_color;
-let food_count=0;
+let food_x=0, food_y=0, food_color, food_count=0;
 
-let tema;
-let come;
+let tema, come;
 
 function preload(){
   tema=loadSound("tema.mp3");
