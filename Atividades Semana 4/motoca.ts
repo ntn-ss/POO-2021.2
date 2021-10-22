@@ -56,12 +56,17 @@ class Motorcycle {
         }
     }
     
-    honk(noise: number): string{
-        let sound: string="";
-        for(let i=0; i<=noise; i++){
-            sound="e".repeat(i);
+    honk(noise: number): string | void{
+        if(this.person!=null){
+            let sound: string="";
+            for(let i=0; i<=noise; i++){
+                sound="e".repeat(i);
+            }
+            return "P"+sound+"m";
         }
-        return "P"+sound+"m";
+        else{
+            console.log("Não tem ninguém na motoca. É uma criança fantasma?");
+        }
     }
 }
 
@@ -77,6 +82,7 @@ class Person{
 
 let carlinhos = new Person ("Carlinhos", 5);
 let motoca = new Motorcycle(null, 0, 1);
+motoca.honk(10);
 motoca.putPerson(carlinhos);
 motoca.buyTime(10);
 motoca.drive(5);
