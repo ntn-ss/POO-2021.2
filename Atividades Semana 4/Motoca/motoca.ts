@@ -45,7 +45,7 @@ class Motorcycle {
 
         let travel = this.time - dist;
         if (travel >= 0) {
-            this.time -= travel;
+            this.time == travel;
             console.log("Viagem concluída. "+this.time+" minutos sobrando.");
             return true;
         } if (travel < 0) {
