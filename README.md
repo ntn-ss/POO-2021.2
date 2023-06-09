@@ -1,2 +1,2 @@
 # POO-DD
-Disciplina feita na U Efe Cê
+Disciplina cursada em meu segundo semestre na UFC, na qual obtive a nota final de 10.0.
