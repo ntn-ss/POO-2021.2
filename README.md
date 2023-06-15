@@ -1,2 +1,4 @@
-# POO-DD
-Disciplina cursada em meu segundo semestre na UFC, na qual obtive a nota final de 10.0.
+# POO-2021.2
+Este repositório contém as atividades enviadas pelo professor @senapk ao longo da disciplina "Programação Orientada a Objetos" e as minhas resoluções delas.
+
+Componente curricular cursado no segundo semestre de minha graduação em Design Digital na UFC, no qual obtive a nota final de 10.0.
